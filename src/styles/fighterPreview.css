@@ -1,0 +1,58 @@
+.fighter-preview___root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 250px;
+  background-color: rgb(249 128 58 / 50%);
+  height: 100%;
+  padding: 10px;
+}
+
+.fighter-preview___right {
+  align-items: flex-end
+}
+
+.fighter-preview___stats {
+  width: 100%;
+}
+
+.fighter-preview__name {
+  /*
+  Да-да.
+  Я нікудишній дизайнер. Ідіть в баню. Я це за день роблю бо довідкладався.
+   */
+  font-size: 35px;
+  color: #fff;
+}
+
+.fighter-preview__health,
+.fighter-preview__attack,
+.fighter-preview__defense {
+  width: 100%;
+  color: #a0e8e9;
+  font-size: 18px;
+}
+
+.fighter-preview__health progress,
+.fighter-preview__attack progress,
+.fighter-preview__defense progress {
+  width: 100%;
+  height: 35px;
+}
+
+.fighter-preview___right .fighter-preview__health,
+.fighter-preview___right .fighter-preview__attack,
+.fighter-preview___right .fighter-preview__defense {
+  text-align: right;
+}
+
+.fighter-preview___right .fighter-preview__health progress,
+.fighter-preview___right .fighter-preview__attack progress,
+.fighter-preview___right .fighter-preview__defense progress {
+  transform: rotate(180deg);
+
+}
+
+.fighter-preview___left {
+  align-items: flex-start;
+}
